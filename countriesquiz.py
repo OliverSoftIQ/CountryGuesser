@@ -1,10 +1,10 @@
 from countriesdatabase import*
 
 
-Functions.resetCountriesList()
+Functions.ResetCountriesList()
 
 
-for i in range(0,196):
+for i in range(0,195):
     choice = str(input("Enter a country name: "))
 
     if choice in removedCountries:

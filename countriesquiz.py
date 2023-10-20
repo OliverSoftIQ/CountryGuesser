@@ -1,7 +1,9 @@
 from countriesdatabase import*
+from ui import*
 
 
 Functions.ResetCountriesList()
+Welcome.beginning()
 
 
 for i in range(0,195):

@@ -27,7 +27,7 @@ countriesInAfrica = []
 
 countriesInNorthAmerica = []
 
-countriesInSouthAmerica = []
+countriesInSouthAmerica = ["Brazil", "Peru"]
 
 countriesInAsia = []
 

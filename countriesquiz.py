@@ -1,4 +1,4 @@
-from CountryGuesser.countriesdatabase import *
+from countriesdatabase import *
 from ui import *
 
 

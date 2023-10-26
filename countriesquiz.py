@@ -1,12 +1,12 @@
-from countriesdatabase import*
-from ui import*
+from CountryGuesser.countriesdatabase import *
+from ui import *
 
 
 Functions.ResetCountriesList()
 Welcome.beginning()
 
 
-for i in range(0,195):
+for i in range(0, 195):
     choice = str(input("Enter a country name: "))
 
     if choice in removedCountries:

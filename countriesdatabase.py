@@ -27,7 +27,11 @@ countriesInAfrica = []
 
 countriesInNorthAmerica = []
 
-countriesInSouthAmerica = ["Brazil", "Peru"]
+countriesInLatinAmerica = ["Antiqua&Barbuda", "Bahamas", "Barbados", "Cuba", "Dominica", "Dominican Republic", "Grenada",
+                           "Haiti", "Jamaica", "Puerto Rico", "Saint Barthélemy", "St Kitts&Nevis", "St Lucia",
+                           "St. Vincent and the Grenadines", "Trinidad&Tobago", "Belize", "Costa Rica", "El Salvador", "Guatemala"
+                           "Honduras", "Mexico", "Nicaragua", "Panama", "Argentina", "Bolivia", "Brazil", "Chile", "Colombia", 
+                           "Ecuador", "French Guiana", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela"]
 
 countriesInAsia = []
 

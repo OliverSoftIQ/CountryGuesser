@@ -1,7 +1,7 @@
 import turtle
 
-whole_world = "images/World_map.gif"
-brazil = "images/brazil.gif"
+whole_world = "CountryGuesser/images/World_map.gif"
+brazil = "CountryGuesser/images/brazil.gif"
 
 
 t = turtle.Turtle()

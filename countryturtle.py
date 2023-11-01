@@ -1,8 +1,10 @@
 import turtle
 
+
+
+
 whole_world = "CountryGuesser/images/World_map.gif"
 brazil = "CountryGuesser/images/brazil.gif"
-joao = "CountryGuesser/images/joaomaze.gif"
 test = "CountryGuesser/images/test.gif"
 
 t = turtle.Turtle()
@@ -15,11 +17,12 @@ class World:
         turtle.bgpic(whole_world)
 
     def DrawBrazil():
-        window.addshape(brazil)
-        turtle.shape(brazil)
+        window.register_shape(brazil)
+        t.shape(brazil)
     
     def DrawTest():
-        window.addshape(test)
+        turtle.Turtle()
+        window.register_shape(test)
         turtle.shape(test)
 
 World.DrawWorld()
@@ -29,8 +32,8 @@ country = input("Enter a country: ")
 
 if country == "Brazil":
     World.DrawBrazil()
-    World.DrawTest()
 else:
     pass
 
 turtle.mainloop()
+

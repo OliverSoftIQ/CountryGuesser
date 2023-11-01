@@ -18,4 +18,4 @@ for i in range(0, 195):
         print(removedCountries)
     else:
         print(choice + " is not in the world!")
- #pussy       
+        

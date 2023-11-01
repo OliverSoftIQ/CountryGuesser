@@ -25,7 +25,7 @@ removedCountries = []
 
 countriesInAfrica = []
 
-countriesInNorthAmerica = []
+countriesInNorthAmerica = ["Canada", "United States", ]
 
 countriesInLatinAmerica = ["Antiqua&Barbuda", "Bahamas", "Barbados", "Cuba", "Dominica", "Dominican Republic", "Grenada",
                            "Haiti", "Jamaica", "Puerto Rico", "Saint Barthélemy", "St Kitts&Nevis", "St Lucia",

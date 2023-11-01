@@ -2,10 +2,8 @@ class Welcome:
     def beginning():
         a = """
             +----------------------+
-            |        WELCOME       |
-            |        TO THE        |
-            |       COUNTRIES      |
-            |         QUIZ         |
+            | WELCOME TO OUR APP!  |
+            |  SELECT AN OPTION    |
             +----------------------+
             """
         print(a)

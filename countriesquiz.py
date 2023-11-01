@@ -15,7 +15,6 @@ for i in range(0, 195):
         print(choice + " is in the world!")
         removedCountries.append(choice)
         countries.remove(choice)
-        print(removedCountries)
     else:
         print(choice + " is not in the world!")
         

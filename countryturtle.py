@@ -1,6 +1,6 @@
 import turtle
 
-whole_world = "CountryGuesser/images/World_map_4500px.gif"
+whole_world = "CountryGuesser/images/World_map.gif"
 
 
 t = turtle.Turtle()

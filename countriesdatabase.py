@@ -1,23 +1,21 @@
-allCountries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua & Deps", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain",
-                "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria",
-                "Burkina", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Central African Rep", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo",
-                "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Timor", "Ecuador", "Egypt", "El Salvador",
-                "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala",
-                "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy", "Ivory Coast",
-                "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea North", "Korea South", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho",
-                "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands",
-                "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal",
-                "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines",
-                "Poland", "Portugal", "Qatar", "Romania", "Russian Federation", "Rwanda", "St Kitts & Nevis", "St Lucia", "Saint Vincent & the Grenadines", "Samoa", "San Marino",
-                "Sao Tome & Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia",
-                "South Africa", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand",
-                "Togo", "Tonga", "Trinidad & Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States",
-                "Uruguay", "Uzbekistan", "Vanuatu", "Vatican", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"]
+allCountries = ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua & deps', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 
+                'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 
+                'burkina', 'burundi', 'cambodia', 'cameroon', 'canada', 'cape verde', 'central african rep', 'chad', 'chile', 'china', 'colombia', 'comoros', 'congo', 'costa rica', 
+                'croatia', 'cuba', 'cyprus', 'czech republic', 'denmark', 'djibouti', 'dominica', 'dominican republic', 'east timor', 'ecuador', 'egypt', 'el salvador', 
+                'equatorial guinea', 'eritrea', 'estonia', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 
+                'guatemala', 'guinea', 'guinea-bissau', 'guyana', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 
+                'ivory coast', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'korea north', 'korea south', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 
+                'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'macedonia', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 
+                'marshall islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar', 'namibia', 
+                'nauru', 'nepal', 'netherlands', 'new zealand', 'nicaragua', 'niger', 'nigeria', 'norway', 'oman', 'pakistan', 'palau', 'panama', 'papua new guinea', 'paraguay', 
+                'peru', 'philippines', 'poland', 'portugal', 'qatar', 'romania', 'russian federation', 'rwanda', 'st kitts & nevis', 'st lucia', 'saint vincent & the grenadines', 
+                'samoa', 'san marino', 'sao tome & principe', 'saudi arabia', 'senegal', 'serbia', 'seychelles', 'sierra leone', 'singapore', 'slovakia', 'slovenia', 
+                'solomon islands', 'somalia', 'south africa', 'south sudan', 'spain', 'sri lanka', 'sudan', 'suriname', 'swaziland', 'sweden', 'switzerland', 'syria', 'taiwan', 
+                'tajikistan', 'tanzania', 'thailand', 'togo', 'tonga', 'trinidad & tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 
+                'united arab emirates', 'united kingdom', 'united states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe']
 
 
 countries = []
-
-emptyCountries = []
 
 removedCountries = []
 
@@ -25,25 +23,42 @@ removedCountries = []
 
 countriesInAfrica = []
 
-countriesInNorthAmerica = ["Canada", "United States", ]
+countriesInNorthAmerica = ["canada", "united states", ]
 
-countriesInLatinAmerica = ["Antiqua&Barbuda", "Bahamas", "Barbados", "Cuba", "Dominica", "Dominican Republic", "Grenada",
-                           "Haiti", "Jamaica", "Puerto Rico", "Saint Barthélemy", "St Kitts&Nevis", "St Lucia",
-                           "St. Vincent and the Grenadines", "Trinidad&Tobago", "Belize", "Costa Rica", "El Salvador", "Guatemala"
-                           "Honduras", "Mexico", "Nicaragua", "Panama", "Argentina", "Bolivia", "Brazil", "Chile", "Colombia", 
-                           "Ecuador", "French Guiana", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela"]
+countriesInLatinAmerica = ['antiqua&barbuda', 'bahamas', 'barbados', 'cuba', 'dominica', 'dominican republic', 'grenada', 'haiti', 'jamaica', 'puerto rico', 'saint barthélemy', 
+                           'st kitts&nevis', 'st lucia', 'st. vincent and the grenadines', 'trinidad&tobago', 'belize', 'costa rica', 'el salvador', 'guatemalahonduras', 'mexico', 
+                           'nicaragua', 'panama', 'argentina', 'bolivia', 'brazil', 'chile', 'colombia', 'ecuador', 'french guiana', 'guyana', 'paraguay', 'peru', 'suriname', 
+                           'uruguay', 'venezuela']
 
 countriesInAsia = []
 
-countriesInAntartica = ["", "Antartica"]
+countriesInAntartica = ["", "antartica"]
 
-countriesInEurope = []
+countriesInEurope = ['russia', 'germany', 'united kingdom', 'france', 'italy', 'spain', 'poland', 'ukraine', 'romania', 'netherlands', 'belgium', 'sweden', 'czech republic', 
+                     'greece', 'portugal', 'hungary', 'belarus', 'austria', 'switzerland', 'serbia', 'bulgaria', 'denmark', 'slovakia', 'finland', 'norway', 'ireland', 'croatia', 
+                     'moldova', 'bosnia and herzegovina', 'albania', 'lithuania', 'slovenia', 'north macedonia', 'latvia', 'estonia', 'luxembourg', 'montenegro', 'malta', 'iceland', 
+                     'andorra', 'liechtenstein', 'monaco', 'san marino', 'holy see']
 
 countriesInOceania = []
 
 
 class Functions:
 
+    def Restart():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesList()
+
     def ResetCountriesList():
-        countries.clear()
+        for x in range(0,len(countries)):
+            del countries[-1]
+
+    def ResetRemovedCountriesList():
+        for x in range(0, len(removedCountries)):
+            del removedCountries[-1]
+    
+    def UpdateCountriesList():
         countries.extend(allCountries)
+
+countriesInEurope = [x.lower() for x in countriesInEurope]
+print(countriesInEurope)

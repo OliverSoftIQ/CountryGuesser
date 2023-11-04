@@ -39,7 +39,8 @@ countriesInEurope = ['russia', 'germany', 'united kingdom', 'france', 'italy', '
                      'moldova', 'bosnia and herzegovina', 'albania', 'lithuania', 'slovenia', 'north macedonia', 'latvia', 'estonia', 'luxembourg', 'montenegro', 'malta', 'iceland', 
                      'andorra', 'liechtenstein', 'monaco', 'san marino', 'holy see']
 
-countriesInOceania = []
+countriesInOceania = ["australia", "papua new guinea", "new zealand", "fiji", "solomon islands", "micronesia", "vanuatu",
+                      "samoa", "kiribati", "tonga", "marshall islands", "palau", "nauru", "tuvalu"]
 
 
 class Functions:

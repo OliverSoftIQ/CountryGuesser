@@ -15,6 +15,9 @@ allCountries = ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antig
                 'united arab emirates', 'united kingdom', 'united states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe']
 
 
+
+
+
 countries = []
 
 removedCountries = []

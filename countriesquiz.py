@@ -28,10 +28,8 @@ if a == 1:
             print(choice + " is not in the world!")
 
 elif a == 2:
-    b = int(input("""                  Press 1 for Europe, 2 for Asia, 3 for Oceania, 4 for North America,
-                  5 for South America and 6 for Africa(7 for a Bonus continent)"""))
+    b = int(input("""                  Press 1 for Europe, 2 for Asia, 3 for Oceania, 4 for North America, 5 for South America and 6 for Africa(7 for a Bonus continents)"""))
     if b == 1:
-        Functions.Restart()
         for i in range(0, len(countriesInEurope)):
             score = 0
             choice = str(input("Enter the name of a country in Europe"))

@@ -56,10 +56,45 @@ countriesInOceania = ['australia', 'federated states of micronesia', 'fiji', 'ki
 
 class Functions:
 
-    def Restart():
+    def RestartAll():
         Functions.ResetCountriesList()
         Functions.ResetRemovedCountriesList()
-        Functions.UpdateCountriesList()
+        Functions.UpdateCountriesListAllCountries()
+
+    def RestartAfrica():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesListAfrica()
+
+    def RestartNA():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesListNA()
+
+    def RestartSA():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesListSA()
+
+    def RestartAsia():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesListAsia()
+
+    def RestartAntartica():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesListAntartica()
+
+    def RestartOceania():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesListOceania()
+
+    def RestartNA():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesListNA()
 
     def ResetCountriesList():
         for x in range(0,len(countries)):
@@ -69,8 +104,29 @@ class Functions:
         for x in range(0, len(removedCountries)):
             del removedCountries[-1]
     
-    def UpdateCountriesList():
+    def UpdateCountriesListAllCountries():
         countries.extend(allCountries)
+
+    def UpdateCountriesListAfrica():
+        countries.extend(countriesInAfrica)
+
+    def UpdateCountriesListNA():
+        countries.extend(countriesInNorthAmerica)
+
+    def UpdateCountriesListSA():
+        countries.extend(countriesInSouthAmerica)
+
+    def UpdateCountriesListAsia():
+        countries.extend(countriesInAsia)
+
+    def UpdateCountriesListAntartica():
+        countries.extend(countriesInAntartica)
+
+    def UpdateCountriesListEurope():
+        countries.extend(countriesInEurope)
+
+    def UpdateCountriesListOceania():
+        countries.extend(countriesInOceania)
 
 countriesInOceania = [x.lower() for x in countriesInOceania]
 print(countriesInOceania)

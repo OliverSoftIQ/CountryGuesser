@@ -86,15 +86,15 @@ class Functions:
         Functions.ResetRemovedCountriesList()
         Functions.UpdateCountriesListAntartica()
 
+    def RestartEurope():
+        Functions.ResetCountriesList()
+        Functions.ResetRemovedCountriesList()
+        Functions.UpdateCountriesListEurope()
+
     def RestartOceania():
         Functions.ResetCountriesList()
         Functions.ResetRemovedCountriesList()
         Functions.UpdateCountriesListOceania()
-
-    def RestartNA():
-        Functions.ResetCountriesList()
-        Functions.ResetRemovedCountriesList()
-        Functions.UpdateCountriesListNA()
 
     def ResetCountriesList():
         for x in range(0,len(countries)):

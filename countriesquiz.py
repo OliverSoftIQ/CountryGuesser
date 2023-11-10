@@ -2,11 +2,11 @@ from countriesdatabase import *
 from ui import *
 
 
-Functions.RestartAll()
 Welcome.beginning()
 
 a = int(input(" "))
 if a == 1:
+    Functions.RestartAll()
     for i in range(0, 195):
         score = 0
         choice = str(input("Enter a country name: "))
@@ -30,9 +30,10 @@ if a == 1:
 elif a == 2:
     b = int(input("""                  Press 1 for Europe, 2 for Asia, 3 for Oceania, 4 for North America, 5 for South America and 6 for Africa(7 for a Bonus continents)"""))
     if b == 1:
+        Functions.RestartEurope()
         for i in range(0, len(countriesInEurope)):
             score = 0
-            choice = str(input("Enter the name of a country in Europe"))
+            choice = str(input("Enter the name of a country in Europe: "))
             choice = choice.lower()
             if choice == "quit" or choice == "stop":
                 quit()

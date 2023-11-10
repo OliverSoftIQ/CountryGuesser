@@ -2,7 +2,7 @@ from countriesdatabase import *
 from ui import *
 
 
-Functions.Restart()
+Functions.RestartAll()
 Welcome.beginning()
 
 a = int(input(" "))
@@ -15,7 +15,7 @@ if a == 1:
             quit()
         elif choice == "restart":
             print("Game Will Restart")
-            Functions.Restart()
+            Functions.RestartAll()
         elif choice in removedCountries:
             print("You have already said this country!")
             print(f"Your score is still {len(removedCountries)-1}")
@@ -38,7 +38,7 @@ elif a == 2:
                 quit()
             elif choice == "restart":
                 print("Game Will Restart")
-                Functions.Restart()
+                Functions.RestartEurope()
             elif choice in removedCountries:
                 print("You have already said this country!")
                 print(f"Your score is still {len(removedCountries)-1}")

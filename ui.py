@@ -8,7 +8,7 @@ class Welcome:
 
             If you would like to play the whole World, press 1
 
-            If you want to play by continents, play 2
+            If you want to play by continents, press 2
 
             Type "quit" to exit the app
             """

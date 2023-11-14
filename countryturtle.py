@@ -1,39 +1,43 @@
+import cv2
 import turtle
 
-
-
-
-whole_world = "CountryGuesser/images/World_map.gif"
-brazil = "CountryGuesser/images/brazil.gif"
+whole_world = ("CountryGuesser/images/World_map.gif")
+brazil = ("CountryGuesser/images/brazil.gif")
 test = "CountryGuesser/images/test.gif"
 
-t = turtle.Turtle()
-window = turtle.Screen()
-window.setup(1920, 1080)
+# Binary Image
+
+img = cv2.imread('image.jpg', 2)
+ret, bw_img = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
+width = int(img.shape[1])
+height = int(img.shape[0])
 
 
-class World:
-    def DrawWorld():
-        turtle.bgpic(whole_world)
+# Turtle Setup
 
-    def DrawBrazil():
-        window.register_shape(brazil)
-        t.shape(brazil)
-    
-    def DrawTest():
-        turtle.Turtle()
-        window.register_shape(test)
-        turtle.shape(test)
-
-World.DrawWorld()
+my_screen = turtle.Screen()
+my_screen.screensize(width, height)
+my_pen = turtle.Turtle()
+my_screen.tracer(0)
 
 
-country = input("Enter a country: ")
+# Printing Loop
 
-if country == "Brazil":
-    World.DrawBrazil()
-else:
-    pass
+for i in range(int(height/2), int(height/-2),  -1):
+    my_pen.penup()
+    my_pen.goto(-(width / 2), i)
 
-turtle.mainloop()
+    for l in range(-int(width/2), int(width/2), 1):
+        pix_width = int(l + (width/2))
+        pix_height = int(height/2 - i)
+        if bw_img[pix_height, pix_width] == 0:
+            my_pen.pendown()
+            my_pen.forward(1)
+        else:
+            my_pen.penup()
+            my_pen.forward(1)
+    my_screen.update()
 
+my_pen.hideturtle()
+
+turtle.done()

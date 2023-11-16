@@ -17,14 +17,14 @@ allCountries = ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antig
                 'united states of america', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe']
 
 
-
+############################################################################################################################################
 
 
 countries = []
 
 removedCountries = []
 
-##########
+############################################################################################################################################
 
 countriesInAfrica = ['algeria', 'angola', 'benin', 'botswana', 'burkina faso', 'burundi', 'cameroon', 'cape verde', 'central african republic', 'chad', 'comoros',
                     'democratic republic of the congo', 'djibouti', 'egypt', 'equatorial guinea', 'eritrea', 'eswatini', 'ethiopia', 'gabon', 'gambia', 'ghana',
@@ -53,6 +53,7 @@ countriesInEurope = ['albania', 'andorra', 'austria', 'belarus', 'belgium', 'bos
 countriesInOceania = ['australia', 'federated states of micronesia', 'fiji', 'kiribati', 'marshall islands', 'nauru', 'new zealand', 'palau', 'papua new guinea', 'samoa',
                        'solomon islands', 'tonga', 'tuvalu', 'vanuatu']
 
+############################################################################################################################################
 
 class Functions:
 

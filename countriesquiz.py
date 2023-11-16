@@ -29,7 +29,7 @@ if a == 1:
             print(f"Your score is {score}")
         else:
             score-=1
-            print(choice + " is not in the world!")
+            print(f"{choice} is not in the world!")
             print(f"Your score is now {score}")
 
 elif a == 2:
@@ -58,7 +58,34 @@ elif a == 2:
                 print(f"Your score is {score}")
             else:
                 score-=1
-                print(choice + " is not in Europe!")
+                print(f"{choice} is not in Europe!")
+                print(f"Your score is now {score}")
+    elif b == 2:
+        Functions.RestartAsia()
+        score = 0
+        for i in range(0, len(countriesInAsia)):
+            choice = str(input("Enter the name of a country in Asia: "))
+            choice = choice.lower()
+            if choice == "quit" or choice == "stop":
+                quit()
+            elif choice == "restart":
+                print("Game Will Restart")
+                Functions.RestartAsia()
+                score = 0
+            elif choice in removedCountries:
+                score-=1
+                print("You have already said this country!")
+                print(f"Your score is still {score}")
+            elif choice in countries:
+                score += 1
+                print(choice + " is in Asia!")
+                removedCountries.append(choice)
+                countries.remove(choice)
+                print(f"Your score is {score}")
+
+            else:
+                score -= 1
+                print(f"{choice} is not in Asia!")
                 print(f"Your score is now {score}")
 else:
     quit()
